@@ -22,3 +22,16 @@ all_champions(WR) = 100
    counter result
 
 6. make that available to be used in serverless app (web app, cli etc...)
+
+## Usage
+To run , just use:
+Run:
+(note i use a file "secrets.tfvars" for this example)
+- terraform init 
+- terraform plan --var-file="secrets.tfvars" -state="app.tfstate"
+- terraform apply --var-file="secrets.tfvars"  -state="app.tfstate"
+
+This repository contains only personal templates and i dont have responsability over bad use of it.
+
+To destroy everything:
+- terraform destroy --var-file="secrets.tfvars"  -state="app.tfstate"

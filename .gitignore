@@ -1,0 +1,6 @@
+secrets.tfvars
+nametest.zip
+app.tfstate.backup
+app.tfstate
+.terraform.lock.hcl
+.terraform
