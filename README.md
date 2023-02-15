@@ -14,9 +14,9 @@ WR = subset(LoL). Example:
 all_champions(LoL) = 250
 all_champions(WR) = 100
 
-3. add script result to s3
+- [x] add script result to s3
 
-4. add script to be ran in a lambda, using terraform
+- [x] add script to be ran in a lambda, using terraform
 
 5. create a lambda with parameter that will query the s3 object to get wanted
    counter result

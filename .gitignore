@@ -4,3 +4,4 @@ app.tfstate.backup
 app.tfstate
 .terraform.lock.hcl
 .terraform
+*.pyc
